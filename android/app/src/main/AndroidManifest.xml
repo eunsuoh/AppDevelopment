@@ -1,8 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <application
         android:label="todaycheckin"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <!--AIzaSyBw3W91Yoopbsnn2bYs5gNnlYN4n_XdY3I-->
         <activity
             android:name=".MainActivity"
             android:exported="true"
